@@ -17,10 +17,10 @@ This extension tracks the amount of time you spend on each website you visit and
 ## Usage
 
 1. Click on the TimeSand icon in the Chrome toolbar to open the popup window.
-2. The popup window will display a list of websites you have visited along with the amount of time you have spent on each website.
-3. The total time spent on websites since the extension was installed will be displayed at the top of the popup window.
-4. The list of websites will automatically update as you visit new websites.
-5. To reset the time tracker, click on the "Reset" button at the bottom of the popup window.
+2. The popup window will display a list of websites you have visited along with the amount of time you have spent on each website. {TBD}
+3. The total time spent on websites since the extension was installed will be displayed at the top of the popup window. {TBD}
+4. The list of websites will automatically update as you visit new websites. {TBD}
+5. To reset the time tracker, click on the "Reset" button at the bottom of the popup window. {TBD}
 
 ## Code
 
