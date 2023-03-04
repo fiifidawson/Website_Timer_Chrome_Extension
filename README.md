@@ -31,6 +31,4 @@ The code for the TimeSand extension is written in JavaScript and includes the fo
 - `scripts/content.js`: This file is a content script that runs on every website and sends information about the website to the background script.
 - `scripts/background.js`: This file is a background script that tracks the time spent on each website and sends the information to the popup window.
 
-## License
 
-The TimeSand Chrome Extension is licensed under the MIT License. See the `LICENSE` file for more information.
