@@ -1,19 +1,36 @@
-# Website_Timer_Chrome_Extension
+# TimeSand Chrome Extension
 
-## Time Tracker Extension
-This is a simple Chrome extension that tracks how much time the user spends on each website. It includes a popup window that displays the current site and the time spent on it, and updates in real-time as the user switches between sites.
+Track the time you spend on websites with the TimeSand Chrome Extension.
+
+## Description
+
+This extension tracks the amount of time you spend on each website you visit and displays it in a popup window. It also includes an icon in the Chrome toolbar that displays the total time you have spent on websites since the extension was installed.
 
 ## Installation
-To install the extension, follow these steps:
 
-## Download the extension files to your computer.
-1. Open Google Chrome and go to the address "chrome://extensions/" in the address bar.
-2. Turn on "Developer mode" by toggling the switch in the top right corner of the screen.
-3. Click on the "Load unpacked" button in the top left corner of the screen.
-4. Navigate to the folder where you saved the extension files, select it, and click "Open".
-5. The extension should now be installed and activated in your browser.
-Usage
-6. To use the extension, simply browse the web as you normally would. The popup window will appear when you click on the extension icon in the toolbar, and will display the current site and the time spent on it. The time spent will update in real-time as you switch between sites.
+1. Clone the repository or download the code as a ZIP file and extract it to a local directory.
+2. Open Google Chrome and go to `chrome://extensions`.
+3. Enable "Developer mode" in the top right corner.
+4. Click on "Load unpacked" and select the local directory where you extracted the code.
+5. The extension should now be installed and the TimeSand icon should appear in the Chrome toolbar.
 
-## Customization
-If you want to modify the extension or add additional functionality, you can edit the source code in the "scripts" and "styles" folders. The manifest.json file contains information about the extension, including its name, description, and version number.
+## Usage
+
+1. Click on the TimeSand icon in the Chrome toolbar to open the popup window.
+2. The popup window will display a list of websites you have visited along with the amount of time you have spent on each website.
+3. The total time spent on websites since the extension was installed will be displayed at the top of the popup window.
+4. The list of websites will automatically update as you visit new websites.
+5. To reset the time tracker, click on the "Reset" button at the bottom of the popup window.
+
+## Code
+
+The code for the TimeSand extension is written in JavaScript and includes the following files:
+
+- `manifest.json`: This file includes information about the extension such as its name, description, version, and permissions.
+- `popup.html`: This file defines the layout of the popup window that displays the time tracker.
+- `scripts/content.js`: This file is a content script that runs on every website and sends information about the website to the background script.
+- `scripts/background.js`: This file is a background script that tracks the time spent on each website and sends the information to the popup window.
+
+## License
+
+The TimeSand Chrome Extension is licensed under the MIT License. See the `LICENSE` file for more information.

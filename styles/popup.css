@@ -1,0 +1,22 @@
+body {
+    width: 200px;
+    height: 100px;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: orange;
+    border-radius: 10px;
+  }
+  
+  #current-site {
+    font-weight: bold;
+  }
+  
+  #time-spent {
+    font-style: italic;
+  }
+  
+timesand{
+    background-color: orange;
+}
